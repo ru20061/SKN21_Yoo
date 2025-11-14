@@ -1,0 +1,17 @@
+#가상환경 생성
+uv venv .venv --python=3.13
+
+#가상환경 활성화
+.venv\Scripts\activate
+
+#VS code에 가상환경을 python interpretor로 설정
+명령 팔레트 ctrl+shift+p -> pytohn selector iterpretor
+jupyter notebook의 '커널선택'에서 가상환경을 설정
+
+
+uv pip install ipykernel
+uv pip install pandas 
+uv pip install scikit-learn 
+uv pip install matplotlib
+
+.venv\Lib\site-packages\matplotlib\mpl-data\matplotlibrc
