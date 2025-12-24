@@ -1,0 +1,12 @@
+docker 설치
+
+window 
+1.wsl 설치
+-powershell 관리자 모드로 실행
+-'wsl --install Ubuntu'
+
+wsl --list --online
+
+2.docker 설치
+docker 가입
+docker desktop 설치
